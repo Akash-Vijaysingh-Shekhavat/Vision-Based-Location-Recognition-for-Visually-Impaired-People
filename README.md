@@ -17,7 +17,7 @@ This project presents a vision-based location recognition system designed to ass
 - Jupyter Notebooks for experimentation and documentation
 
 ## Dataset
-The dataset consists of a diverse set of images (>10GB) captured at various indoor environments. Due to GitHub storage limits, dataset download links and preprocessing details are included in the `datasets/README_DATA.md` file.
+The dataset consists of a diverse set of images (>10GB) captured at various indoor environments. Due to GitHub storage limits, dataset download links and preprocessing details are included in the `dataset.md` file.
 
 ## Research Paper
 Detailed explanation and analysis are published in the paper:
