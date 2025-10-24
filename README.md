@@ -1,34 +1,29 @@
-Vision-Based Location Recognition for Visually Impaired People
-Project Overview
-This project presents a vision-based location recognition system designed to aid visually impaired individuals by identifying and localizing specific places within an indoor environment using computer vision techniques. The system leverages visual data captured by a camera to extract distinctive features that enable reliable place recognition. The identified location information is then conveyed to the user through an audio interface, thereby enhancing navigation and spatial awareness for visually impaired users.
+# Vision-Based Location Recognition for Visually Impaired People
 
-Key Features
-Uses Fast Retina Keypoint (FREAK) descriptor and Features from Accelerated Segment Test (FAST) algorithm for precise feature detection and extraction.
+## Project Overview
+This project presents a vision-based location recognition system designed to assist visually impaired individuals by identifying and localizing specific places within an indoor environment using computer vision techniques. The system collects visual data via a camera, extracts distinctive features, and matches these with known environments to identify location. The recognized location is then announced through an audio interface, enabling safe and independent indoor navigation.
 
-Employs Support Vector Machine (SVM) and clustering algorithms for accurate classification and localization of places within a confined environment.
+## Key Features
+- Utilizes Fast Retina Keypoint (FREAK) descriptor and Features from Accelerated Segment Test (FAST) algorithm for fast and reliable feature extraction.
+- Implements Support Vector Machine (SVM) and clustering methods for accurate location classification.
+- Designed for real-world use cases, tested within campus environments.
+- Provides real-time voice feedback for smooth user interaction.
+- Significantly improves automated location awareness for visually impaired users.
 
-Utilizes a large dataset of images collected in a real-world college campus setting to train and evaluate the system.
+## Technologies and Tools
+- Python, OpenCV, NumPy, Scikit-learn
+- FAST and FREAK feature extractors
+- Machine learning algorithms (SVM)
+- Jupyter Notebooks for experimentation and documentation
 
-Integrates an audio feedback module to communicate recognized locations to users effectively.
+## Dataset
+The dataset consists of a diverse set of images (>10GB) captured at various indoor environments. Due to GitHub storage limits, dataset download links and preprocessing details are included in the `datasets/README_DATA.md` file.
 
-Achieves high detection accuracy, improving autonomy and safety for visually impaired individuals.
+## Research Paper
+Detailed explanation and analysis are published in the paper:
+**Vision-Based Location Recognition for Visually Impaired People**  
+Authors: Jyoti Madake, Akash Shekhavat, Madhuri Shelke, Shripad Bhatlawande  
+(Available in the https://ieeexplore.ieee.org/document/10560251
 
-Technologies and Tools
-Computer Vision libraries and frameworks
-
-machine learning algorithms such as SVM
-
-Image processing techniques like FAST and FREAK
-
-Python programming and Jupyter notebooks for development and experimentation
-
-Dataset
-The dataset consists of over 10GB of images covering multiple locations, preprocessed for robust feature extraction and matching.
-
-Research Paper
-For detailed methodology, evaluation, and experimental results, refer to the published research paper included in the /paper/ directory:
-Vision-Based Location Recognition for Visually Impaired People by Jyoti Madake, Akash Shekhavat, Madhuri Shelke, and Shripad Bhatlawande.
-
-Usage
-The repository includes Jupyter notebooks covering data preprocessing, feature extraction, model training, evaluation, and visualization. Instructions for environment setup and running the project are provided in the README.
-
+## Usage
+1. Clone the repository and install dependencies:
